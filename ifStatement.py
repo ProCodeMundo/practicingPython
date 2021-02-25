@@ -11,5 +11,26 @@ if x > 3 or y %2 ==0:
     print("At least one of the conditions is satisfied.")
 elif x <=3 and y %2==1:
     print("Neither condition is satisfied.")
-# 
+
+"""
+Write an if statement that asks for the user's name via input() function. If the name is "Bond" make it print 
+""Hi " name " welcome to the team." Otherwise make it print "Good morning NAME". (Replace Name with user's name)
+"""
+name= input("What is your name: ")
+
+if name.lower() == "bond":
+    print("Welcome on board 007")
+else:
+    print("Hi " +name +" welcome to the team!")
+
+
+# Write a function named "evens" which returns True if a number is even and otherwise returns False
+def even(i):
+    if i%2 ==0:
+        return True
+    else: 
+        return False
+
+print(even(99))
+print(even(98))
 
