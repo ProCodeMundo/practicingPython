@@ -11,5 +11,5 @@ if x > 3 or y %2 ==0:
     print("At least one of the conditions is satisfied.")
 elif x <=3 and y %2==1:
     print("Neither condition is satisfied.")
+# 
 
-    
