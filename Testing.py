@@ -1,5 +1,13 @@
-q1 = int(input("celsius to fahrenheit type 1:  or type 2 for Fahrenheit to celius"))
-q2 = int(input("Temperature number: "))
-
-if q1 is (1):
-    
+lista = ['a', 'b', 'c']
+print(lista)
+print("first Item:",lista[0])
+print("Last item:",lista[-1])
+def listta(lista):
+    for x in lista:
+        print(x)
+listta(lista)
+lista.append("d")
+print(lista)
+print(lista[3])
+copylista = lista
+print(copylista)
