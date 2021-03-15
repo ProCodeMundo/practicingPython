@@ -1,0 +1,5 @@
+def greeting(name, department):
+    print("Hello " + name)
+    print("You are part of " + department)
+
+greeting("Ruben", "IT department")
