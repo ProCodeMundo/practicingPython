@@ -1,0 +1,12 @@
+# While Loops: Instruct your computer to continuously execute code based on the value of a condition.
+
+def count_down(current):
+  while (current > 0):
+    print(current)
+    current -= 1
+  print("Zero!")
+ 
+count_down(3)
+
+
+# Whenever writing a loop, check that you are initializing all the variables you want to use before you use them. 
