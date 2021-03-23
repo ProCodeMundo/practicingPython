@@ -15,3 +15,48 @@ def sum_squares(x):
     return sum
 
 print(sum_squares(10))
+
+friends =['Ruben', 'Taylor', 'Pat']
+for name in friends:
+    print("Hi " + name)
+    
+
+## defining list of values
+values = [23, 52,59,32, 45]
+## Initializing variable to store the values
+sum =0 
+length =0 
+## Initializing the For_Loop to go throught the list 
+for number in values:
+    sum += number
+    length +=1 
+print("Totatl sum: " + str(sum) + " Lenght total: " + str(length)
+    + " Average:  " + str(sum/length))
+    
+product =1 
+
+for number in range(1,10):
+    product = product * number
+    print(product)
+print(product)
+
+"""
+In math, the factorial of a number is defined as the product of an integer and 
+all the integers below it. For example, the factorial of four (4!) 
+is equal to 123*4=24. Fill in the blanks to make the factorial function 
+return the right number.
+"""
+def factorial(n):
+    result = 1 
+    for number in range(1, n+1):
+        result *= number
+    return result
+print(factorial(4)) # should return 24
+print(factorial(5)) # should return 120
+
+def to_celsius(x):
+    return (x-32)*5/59
+
+## Initializing For_Loop from 0 to 100 and incrementing every 10 digits
+for x in range(0, 101, 10):
+    print(x, to_celsius(x))
